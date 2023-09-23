@@ -66,6 +66,14 @@
 			      </p>
 			    </aside>
 			  {% endif %}
+  	          <nav>
+	            <h2>Site</h2>
+	            <ul>
+	              {% for name, link in SITE_NAV %}
+	                <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
+	              {% endfor %}
+	            </ul>
+	          </nav>
 
   	          <nav>
 	            <h2>Categories</h2>
@@ -75,6 +83,7 @@
 	              {% endfor %}
 	            </ul>
 	          </nav>
+
 
 	          {% if SOCIAL %}
 	            <aside>
