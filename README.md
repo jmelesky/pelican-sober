@@ -54,3 +54,4 @@ If you provide one of the two settings below, twitter card metadata will be auto
 ## Credits ##
 
 * Icons by [Jorge Calvo](http://dribbble.com/shots/1074961-Flat-Icons-EPS), slightly adapted by [Ingrid Hamard](http://ingrid.hamard.free.fr)
+* This theme was created by [Florent Lebreton](https://fle.github.io/). I've forked it in order to add a few bits and bobs.
